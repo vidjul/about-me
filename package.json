@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://vidjul.github.io/about-me/",
   "dependencies": {
-    "antd": "^3.8.4",
+    "@material-ui/core": "^3.0.2",
     "moment": "^2.22.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
@@ -17,5 +17,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
   }
 }

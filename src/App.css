@@ -2,38 +2,7 @@
   text-align: center;
 }
 
-header {
-  background-color:rgb(10, 113, 198);;
-  min-height: 50px;
-}
-
-.App-intro {
-  background-color:rgb(65, 164, 245);
-  font-family: 'Roboto', sans-serif;
-  min-height: 180px;
-  color: white;
-  text-align: center;
-  padding-top: 20px;
-}
-
-.App-social {
-  padding-top: 10px;
-  padding-left: 15px;
-  background-color:whitesmoke;
-  min-height: 100px;
-  display: flex;
-  justify-content: center;
-}
-
-.fab {
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
-.App-social>a:hover {
-  color: rgb(65, 164, 245);
-}
-
-.App-social>a {
-  color: black;
+.nav-title {
+  flex-grow: 1;
+  
 }
